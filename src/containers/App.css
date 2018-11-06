@@ -30,3 +30,22 @@
     transform: rotate(360deg);
   }
 }
+
+.center {
+  display: flex;
+  justify-content: center;
+}
+
+/*uncomment when there are already elements*/
+.particles {
+  position: fixed;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  z-index: -1;
+}
+
+.link:active {
+  outline:none;
+}
